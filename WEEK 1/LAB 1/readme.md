@@ -51,8 +51,11 @@ Then click on the *"virtual MFA device"* the aws algorithm automatically select 
   Then set users details by creating a username and then select the AWS access user type --- which has two option;
   
              (i) Programmable Access
+             
              It enables access Key Id and Secret Key for the AWS, API,CLI,SDK and development tools
+             
              (ii) Access management console access
+             
              It enables a password that allows users to sign-in to the AWS management console .. 
              
  *Note* Since i was going to use the management console , i selected the second option that affords me to generate a password i can use to login to the console 
@@ -62,9 +65,11 @@ Then click on the *"virtual MFA device"* the aws algorithm automatically select 
                (i) Add users to group
                
                You can add the user to group you have created so they can have access to all the policies of that group 
+               
                (ii) Copy permission from existing user 
                
                Here you can copy the permission from an existing user account to the user account you are creating and every of the policies factor into that user account would work equally for the new user account being created 
+               
                (iii) Attach existing policy directly 
                
                There are already defined policies on the AWS console that one cann use or we could create a custom-made policy 
